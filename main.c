@@ -1,4 +1,3 @@
-// main.c (minimal - A2)
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
@@ -23,10 +22,10 @@ int main(int argc, char *argv[]) {
         // skip comments and empty
         if (line[0] == '#' || line[0] == '\n') continue;
 
-        // handle tests: "<func> <input> <expected>"
+        // handle tests
         char func[32], in[128], expected[256], actual[256];
         if (sscanf(line, "%31s %127s %255s", func, in, expected) != 3) {
-            // not a valid test line
+
             continue;
         }
 
