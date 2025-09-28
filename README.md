@@ -13,7 +13,7 @@ gcc -o convert convert.c main.c
 ```
 
 ## Test Results
-[58/60 tests passed]
+[49/51 tests passed]
 ```bash
 Test 1: oct_to_bin 725 -> 111010101 [PASS]
 Test 2: oct_to_bin 345 -> 011100101 [PASS]
